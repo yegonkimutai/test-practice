@@ -1,5 +1,6 @@
 const { stringLength, reverseString, Calculator,capitalize } = require('./function');
 
+//length test
 test ('length', () => {
     expect(stringLength("hello")).toBe(5)
 })
@@ -10,14 +11,18 @@ test ('length', () => {
     )
 })
 
+//reverse test
 test ('reverse', () => {
     expect(reverseString("hello")).toBe("olleh")
 })
 
+//capitalize test
 test ('uppercase', () => {
     expect(capitalize("hello")).toBe("Hello")
 })
 
+
+//calculator test
 describe('calculator testing', () => {
     test ('add', () => {
         expect(Calculator.add(1, 2)).toBe(3)
