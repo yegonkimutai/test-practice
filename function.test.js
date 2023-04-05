@@ -2,7 +2,7 @@ const { stringLength, reverseString, Calculator,capitalize } = require('./functi
 
 //length test
 test ('length', () => {
-    expect(stringLength("hello")).toBe(5)
+    expect(stringLength("test")).toBe(4)
 })
 
 test ('length', () => {
@@ -13,12 +13,12 @@ test ('length', () => {
 
 //reverse test
 test ('reverse', () => {
-    expect(reverseString("hello")).toBe("olleh")
+    expect(reverseString("test")).toBe("tset")
 })
 
 //capitalize test
 test ('uppercase', () => {
-    expect(capitalize("hello")).toBe("Hello")
+    expect(capitalize("test")).toBe("Test")
 })
 
 
